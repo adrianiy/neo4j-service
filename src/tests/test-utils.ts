@@ -1,4 +1,4 @@
 import { service } from './../server';
-import * as request from 'supertest';
+import request from 'supertest';
 
 export const testRequest = request(service.callback());

@@ -1,9 +1,9 @@
 import { env } from './lib/env';
-import * as Koa from 'koa';
-import * as cors from '@koa/cors';
-import * as respond from 'koa-respond';
-import * as bodyParser from 'koa-bodyparser';
-import * as compress from 'koa-compress';
+import Koa from 'koa';
+import cors from '@koa/cors';
+import respond from 'koa-respond';
+import bodyParser from 'koa-bodyparser';
+import compress from 'koa-compress';
 import { scopePerRequest, loadControllers } from 'awilix-koa';
 
 import { getLogger } from './lib/logger';
