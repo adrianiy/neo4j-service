@@ -11,6 +11,8 @@
         "moduleResolution": "node",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
         "typeRoots": [
             "node_modules/@types"
         ]

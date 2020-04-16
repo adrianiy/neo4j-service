@@ -1,6 +1,6 @@
 import { env } from './env';
-import * as winston from 'winston';
-import * as chalk from 'chalk';
+import winston from 'winston';
+import chalk from 'chalk';
 
 const ERROR = 'error';
 const WARN = 'warn';
