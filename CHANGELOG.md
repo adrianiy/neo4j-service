@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2020-04-16
+
 ### Fixed
 
 - [#5] (https://github.com/AdrianInsua/neo4j-dashboard/issues/5) Fix node start typo.
@@ -19,5 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.0&sourceBranch=refs/heads/develop
+[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.1&sourceBranch=refs/heads/develop
+[1.0.1]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.0&sourceBranch=1.0.1
 [1.0.0]: https://github.com/AdrianInsua/neo4j-service/compare/commits?until=1.0.0
