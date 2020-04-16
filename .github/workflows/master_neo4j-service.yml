@@ -4,9 +4,8 @@
 name: Build and deploy Node.js app to Azure Web App - neo4j-service
 
 on:
-  push:
-    branches:
-      - master
+  release:
+    types: [published]
 
 jobs:
   build-and-deploy:
