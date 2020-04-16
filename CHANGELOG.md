@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- [#1] (https://github.com/AdrianInsua/neo4j-dashboard/issues/1) Add text area to write queries.
 
 
-[Unreleased]: https://github.com/AdrianInsua/neo4j-dashboard/compare/commits?targetBranch=refs/heads/develop
+
+[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=refs/heads/develop
