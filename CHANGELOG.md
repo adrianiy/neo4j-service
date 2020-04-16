@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.3] - 2020-04-17
+
+### Fixed
+
+- [#13] (https://github.com/AdrianInsua/neo4j-dashboard/issues/13) Delete cross-env dependency.
+
 ## [1.0.2] - 2020-04-17
 
 ### Fixed
@@ -27,7 +33,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.2&sourceBranch=refs/heads/develop
+[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.3&sourceBranch=refs/heads/develop
+[1.0.3]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.2&sourceBranch=1.0.3
 [1.0.2]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.1&sourceBranch=1.0.2
 [1.0.1]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.0&sourceBranch=1.0.1
 [1.0.0]: https://github.com/AdrianInsua/neo4j-service/compare/commits?until=1.0.0
