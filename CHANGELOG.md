@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.4] - 2020-04-17
+
 ### Fixed
 
 - [#19] (https://github.com/AdrianInsua/neo4j-service/issues/19) Fix route resolution in production env.
@@ -37,7 +39,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 
 
-[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.3&sourceBranch=refs/heads/develop
+[Unreleased]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.4&sourceBranch=refs/heads/develop
+[1.0.4]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.3&sourceBranch=1.0.4
 [1.0.3]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.2&sourceBranch=1.0.3
 [1.0.2]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.1&sourceBranch=1.0.2
 [1.0.1]: https://github.com/AdrianInsua/neo4j-service/compare/commits?targetBranch=1.0.0&sourceBranch=1.0.1
