@@ -16,6 +16,8 @@ const logger = getLogger('server');
 logger.debug('Creating server...');
 const app: any = new Koa();
 
+const mode = env.NODE_ENV;
+
 // Container is configured with our services and whatnot.
 const container = (app.container = configureContainer());
 
@@ -34,7 +36,7 @@ app
     // docs for details: https://github.com/jeffijoe/awilix-koa
     .use(scopePerRequest(container))
     // Load routes (API "controllers")
-    .use(loadControllers('./routes/*.ts', { cwd: __dirname }))
+    .use(loadControllers(`./routes/*.${env.EXT}`, { cwd: __dirname }))
     // Default handler when nothing stopped the chain.
     .use(notFoundHandler);
 
@@ -42,7 +44,6 @@ export const service = app;
 
 export function createServer() {
     service.listen(env.PORT, () => {
-        const mode = env.NODE_ENV;
         logger.debug(`Server listening on ${env.PORT} in ${mode} mode`);
     });
 }

@@ -1,3 +1,4 @@
+import { env } from './env';
 import { createContainer, Lifetime, InjectionMode, asValue } from 'awilix';
 import { getLogger } from './logger';
 
@@ -11,10 +12,10 @@ const modulesToLoad: any= [
     // Services should be scoped to the request.
     // This means that each request gets a separate instance
     // of a service.
-    [ 'services/*.ts', Lifetime.SCOPED ],
+    [ `services/*.${env.EXT}`, Lifetime.SCOPED ],
     // Stores will be singleton (1 instance per process).
     // This is just for demo purposes, you can do whatever you want.
-    [ 'stores/*.ts', Lifetime.SINGLETON ]
+    [ `stores/*.${env.EXT}`, Lifetime.SINGLETON ]
 ];
 
 /**
