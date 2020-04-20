@@ -17,6 +17,7 @@ extends: []
 ignorePatterns:
   - '**/tests/*'
   - 'dist/*'
+  - 'commitlint.config.js'
 plugins:
   - 'eslint-plugin-prettier'
   - 'eslint-plugin-import'
