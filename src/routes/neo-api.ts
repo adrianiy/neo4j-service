@@ -10,7 +10,7 @@ import {
 // This is our API controller.
 const api = (neoService: INeoService) => ({
     login: pipe(createDriver, sendData(neoService.login)),
-    logout: neoService.logout,
+    logout: sendData(neoService.logout),
     query: pipe(
         neoService.getDriver,
         createSession,
