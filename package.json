@@ -1,6 +1,6 @@
 {
   "name": "neo4j-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny service to manage neo4j query",
   "author": "Adrián Insua",
   "license": "MIT",

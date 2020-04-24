@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/AdrianInsua/neo4j-service/compare/v1.0.0...v1.0.1) (2020-04-24)
+
+
+### Bug Fixes
+
+* return verbose errors ([3a12662](https://github.com/AdrianInsua/neo4j-service/commit/3a1266223d7871e4e641fe2f3c70812135eabf07))
+
 # 1.0.0 (2020-04-20)
 
 
