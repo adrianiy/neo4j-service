@@ -35,7 +35,7 @@ export default class NeoService {
             return true;
         } catch (err) {
             logger.error(err.message);
-            throw new Error('Error doing logout');
+            throw new Error(`Error doing logout: ${ err.message }`);
         }
     }
 
@@ -44,7 +44,7 @@ export default class NeoService {
             ctx.state.driver = (await this._neoStore.get(ctx.params.id)).driver;
         } catch (err) {
             logger.error(err.message);
-            throw new Error('Error getting saved driver');
+            throw new Error(`Error getting saved driver: ${ err.message }`);
         }
 
         return next;
@@ -56,7 +56,7 @@ export default class NeoService {
             return results;
         } catch (err) {
             logger.error(err.message);
-            throw new Error('Error getting query');
+            throw new Error(`Error getting query: ${ err.message }`);
         }
     }
 }
