@@ -94,7 +94,7 @@ Middleware is located in the `middleware` folder and is _not_ automatically load
 
 # Author
 
-- Jeff Hansen - [@Jeffijoe](https://twitter.com/Jeffijoe)
+- Adrián Insua Yañez - [@AdrianInsua](https://github.com/AdrianInsua)
 
 # License
 
@@ -103,3 +103,10 @@ MIT.
 [koa]: https://koajs.com/
 [Neo4j]: https://neo4j.com/
 [jeffijoe]: https://github.com/jeffijoe/koa-es7-boilerplate/blob/master/src/lib/server.js
+
+[build-badge]: https://github.com/AdrianInsua/neo4j-service/workflows/Build%20&%20Test/badge.svg
+[build-link]: https://github.com/AdrianInsua/neo4j-service/actions?query=workflow%3A%22Build+&+Test%22
+[license-image]: https://badgen.net/github/license/AdrianInsua/neo4j-service
+[version-image]: https://badgen.net/github/release/AdrianInsua/neo4j-service/stable
+[repo-link]: https://github.com/AdrianInsua/neo4j-service
+[repo-version-link]: https://github.com/AdrianInsua/neo4j-service/releases
