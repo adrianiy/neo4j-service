@@ -109,7 +109,7 @@ MIT.
 [jeffijoe]: https://github.com/jeffijoe/koa-es7-boilerplate/blob/master/src/lib/server.js
 
 [build-badge]: https://github.com/AdrianInsua/neo4j-service/workflows/Build%20&%20Test/badge.svg
-[build-link]: https://github.com/AdrianInsua/neo4j-service/actions?query=workflow%3A%22Build%20&%20Test%22
+[build-link]: https://github.com/AdrianInsua/neo4j-service/actions?query=workflow%3A"Build+%26+Test"
 [license-image]: https://badgen.net/github/license/AdrianInsua/neo4j-service
 [version-image]: https://badgen.net/github/release/AdrianInsua/neo4j-service/stable
 [repo-link]: https://github.com/AdrianInsua/neo4j-service
