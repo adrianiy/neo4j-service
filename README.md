@@ -1,3 +1,7 @@
+[![Build & Test][build-badge]][build-link]
+[![GitHub license][license-image]][repo-link]
+[![Version][version-image]][repo-version-link]
+
 # NEO4J-Service
 
 Small service implementation based on [koa] framework and [jeffijoe] boilerplate.
